@@ -1,3 +1,21 @@
+class Node():
+    def __init__(self,data):
+        self.data=data
+        self.left=None
+        self.right=None
+    def setdata(self,ndata):
+        self.data=ndata
+    def getdata(self):
+        return self.data
+    def getleft(self):
+        return self.left
+    def getright(self):
+        return self.right
+    def setleft(self,ldata):
+        self.left=ldata
+    def setright(self,rdata):
+        self.right=rdata
+		
 class Stack:
      def __init__(self):
          self.items = []
@@ -33,23 +51,7 @@ class Queue:
     def size(self):
         return len(self.items)
 
-class Node():
-    def __init__(self,data):
-        self.data=data
-        self.left=None
-        self.right=None
-    def setdata(self,ndata):
-        self.data=ndata
-    def getdata(self):
-        return self.data
-    def getleft(self):
-        return self.left
-    def getright(self):
-        return self.right
-    def setleft(self,ldata):
-        self.left=ldata
-    def setright(self,rdata):
-        self.right=rdata
+
 class Binary_Tree():
     def __init__(self):
         self.root=None
