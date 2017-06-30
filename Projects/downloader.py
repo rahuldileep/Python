@@ -1,0 +1,2 @@
+import urllib.request
+urllib.request.urlretrieve("http://soundz.mp3slash.net/indian/kk24karathits2014/[Songs.PK]%20K.K.%2024%20Karat%20Hits%20-%2001%20-%20Aankhon%20Mein%20Teri.mp3","Ankhon_me_teri.mp3")
