@@ -5,6 +5,6 @@ class solution():
 			domain_index = email.index('.',local_index)
 			email = email[:local_index] + '@' + new_domain +email[domain_index:]
 		return email
-
+		
 object = solution()
 print(object.change_domain('reesha@hotmail.com','hotmail','gmail'))
